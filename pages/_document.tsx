@@ -8,30 +8,37 @@ export default class MyDocument extends Document {
       <IconContext.Provider value={{ style: { verticalAlign: 'middle' } }}>
         <Html lang='en'>
           <Head>
+            <script
+              async
+              src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5606112886967612'
+              crossorigin='anonymous'
+            ></script>
+
             <link rel='shortcut icon' href='/favicon.png' />
 
             <link
-              rel='apple-touch-icon'
-              sizes='180x180'
-              href='/apple-touch-icon.png'
+              rel='icon'
+              type='image/png'
+              sizes='192x192'
+              href='/icon-192x192.png'
             />
             <link
               rel='icon'
               type='image/png'
-              sizes='96x96'
-              href='/favicon-96x96.png'
+              sizes='256x256'
+              href='/icon-256x256.png'
             />
             <link
               rel='icon'
               type='image/png'
-              sizes='32x32'
-              href='/favicon-32x32.png'
+              sizes='384x384'
+              href='/icon-384x384.png'
             />
             <link
               rel='icon'
               type='image/png'
-              sizes='16x16'
-              href='/favicon-16x16.png'
+              sizes='512x512'
+              href='/icon-512x512.png'
             />
 
             <link rel='manifest' href='/manifest.json' />
