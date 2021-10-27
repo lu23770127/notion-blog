@@ -11,7 +11,7 @@ export default class MyDocument extends Document {
             <script
               async
               src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5606112886967612'
-              crossorigin='anonymous'
+              crossOrigin='anonymous'
             ></script>
 
             <link rel='shortcut icon' href='/favicon.png' />
