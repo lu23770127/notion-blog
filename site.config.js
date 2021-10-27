@@ -7,19 +7,19 @@ module.exports = {
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Tildas Knowledge Base Beta',
-  domain: 'tildasknowledgebase.beta',
+  name: 'Tildas Notion Blog',
+  domain: 'tilda-lu-notion.vercel.app',
   author: 'Tilda Lu',
 
   // open graph metadata (optional)
-  description: 'Example site description',
+  description: "Tilda's Personal Blog",
   socialImageTitle: 'Tilda Lu',
   socialImageSubtitle: 'Hello World! 👋',
 
   // social usernames (optional)
-  twitter: 'tilda_1226',
+  twitter: 'tilda_lu_1226',
   github: 'lu23770127',
-  linkedin: 'lu23770127',
+  linkedin: 'tilda-lu-531a24193',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
