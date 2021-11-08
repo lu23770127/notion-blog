@@ -8,12 +8,6 @@ export default class MyDocument extends Document {
       <IconContext.Provider value={{ style: { verticalAlign: 'middle' } }}>
         <Html lang='en'>
           <Head>
-            <script
-              async
-              src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5606112886967612'
-              crossOrigin='anonymous'
-            ></script>
-
             <link rel='shortcut icon' href='/favicon.png' />
 
             <link
@@ -46,6 +40,12 @@ export default class MyDocument extends Document {
 
           <body>
             <script src='noflash.js' />
+
+            <script
+              async
+              src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5606112886967612'
+              crossOrigin='anonymous'
+            ></script>
 
             <Main />
 
